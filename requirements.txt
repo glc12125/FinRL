@@ -11,7 +11,8 @@ lz4
 matplotlib
 # data handling
 numpy>=1.17.3
-pandas>=1.1.5
+#pandas>=1.1.5
+pandas==2.1.1
 
 #hooks
 pre-commit
@@ -21,7 +22,6 @@ pyfolio
 pytest
 ray[default]
 ray[tune]
-recommonmark
 recommonmark
 
 # Model Building Requirements
